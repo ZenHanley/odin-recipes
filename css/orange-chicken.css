@@ -1,10 +1,5 @@
 @media only screen and (min-width: 0px) {
     #orange-chicken {
-        /* 144px - 300px - leaving extra space for the navigation */
-        padding: clamp(9rem, 10vw, 18.75rem) (15/16rem) 0;
-        /* prevents padding and border from affecting height and width */
-        box-sizing: border-box;
-    }
-    #orange-chicken .title {
+        padding: var(--sectionpadding);
     }
 }

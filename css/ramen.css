@@ -1,6 +1,5 @@
 @media only screen and (min-width: 0px) {
     #ramen {
-        background-color: var(--secondary);
-        text-align: center;
+        padding: var(--sectionpadding);
     }
 }
