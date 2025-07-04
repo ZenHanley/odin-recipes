@@ -1,10 +1,14 @@
 @media only screen and (min-width: 0px) {
-    #home {
-        /* 144px - 300px - leaving extra space for the navigation */
-        padding: clamp(9rem, 10vw, 18.75rem) 0.9375rem 0;
-        /* prevents padding and border from affecting height and width */
-        box-sizing: border-box;
-        /* clips the color overlay so it doesn't cause an overflow */
-        overflow: hidden;
-    }
+    /*-- =========================================== --*/
+    /*--                  Image & Title              --*/
+    /*-- =========================================== --*/    
+
+        #home {
+            /* 144px - 300px - leaving extra space for the navigation */
+            padding: clamp(9rem, 10vw, 18.75rem) 0.9375rem 0;
+            /* prevents padding and border from affecting height and width */
+            box-sizing: border-box;
+            /* clips the color overlay so it doesn't cause an overflow */
+            overflow: hidden;
+        }
 }

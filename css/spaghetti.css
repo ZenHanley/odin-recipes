@@ -1,5 +1,48 @@
 @media only screen and (min-width: 0px) {
-    #spaghetti {
-        padding: var(--sectionpadding);
-    }
-}
+    /*-- =========================================== --*/
+    /*--                Image & Title                --*/
+    /*-- =========================================== --*/
+
+        #spaghetti {
+            padding: var(--sectionpadding);
+        }
+        .title {
+            padding: 0;
+        }
+        .text {
+            padding: 0;
+        }
+        
+    /*-- =========================================== --*/
+    /*--                 Ingredients                 --*/
+    /*-- =========================================== --*/
+
+        #ingredients {
+            padding: var(--sectionpadding);
+        }
+        .container {
+            padding: 0.5rem 0;
+        }
+
+    /*-- =========================================== --*/
+    /*--                    Steps                    --*/
+    /*-- =========================================== --*/
+
+        #steps {
+            padding: var(--sectionpadding);
+        }
+        .container {
+            padding: 0.5rem 0;
+        }
+
+    /*-- =========================================== --*/
+    /*--                    Buttons                  --*/
+    /*-- =========================================== --*/
+
+        #buttons {
+            padding: var(--sectionpadding);
+        }
+        .button-box {
+            padding: 0.5rem 0;
+        }
+}   

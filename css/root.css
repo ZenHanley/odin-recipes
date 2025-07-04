@@ -3,8 +3,8 @@
         --primary: lightyellow;
         --secondary: darkgreen; 
         --text: black; 
-        --whitetext: white;
-        --titlecolor: black;
+        --whitetext: rgb(255, 255, 255);
+        --titlecolor: rgb(0, 0, 0);
         /* 13px - 16px */
         --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
         /* 31px - 49px */
@@ -19,7 +19,7 @@
     }
     .title {
         padding: 0;
-        color: blue; 
+        color: var(--titlecolor); 
     }
     .sub-title {
         padding: 0;
