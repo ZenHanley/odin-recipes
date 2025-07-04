@@ -1,5 +1,6 @@
 @media only screen and (min-width: 0px) {
-    #spaghetti {
+    #home {
         text-align: center;
+        background-color: var(--primary);
     }
 }
