@@ -2,7 +2,7 @@
 /*--                Image & Title                --*/
 /*-- =========================================== --*/
 @media only screen and (min-width: 0px) {
-        #orange-chicken {
+        #main {
             padding: var(--sectionpadding);
         }
         .container {

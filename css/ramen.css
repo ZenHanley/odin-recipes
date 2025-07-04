@@ -2,7 +2,7 @@
 /*--                Image & Title                --*/
 /*-- =========================================== --*/
 @media only screen and (min-width: 0px) {
-        #ramen {
+        #main {
             padding: var(--sectionpadding);
         }
         .container {

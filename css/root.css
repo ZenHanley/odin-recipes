@@ -5,11 +5,12 @@
 /* Base Template */
 @media only screen and (min-width: 0px) {
     :root {
-        --primary: rgb(226, 226, 119);
-        --secondary: rgb(5, 107, 5); 
+        --primary: #FDD65B;
+        --secondary: ##D54215; 
         --titlecolor: rgb(0, 0, 0);
         --subtitlecolor: rgb(151, 151, 151);
         --text: rgb(0, 0, 0); 
+        --buttonbackground: #1D816D; 
         --whitetext: rgb(255, 255, 255);
         /* 13px - 16px */
         --topperfontsize: clamp(0.8125rem, 1.6vw, 1rem);
@@ -19,9 +20,10 @@
         /* 60px - 100px top and bottom */
         --sectionpadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
     }
-    .body {
+    body {
         /* prevents padding and border from affecting height and width */
         box-sizing: border-box;
+        background-color: var(--primary); 
     }
     .title {
         padding: 0;
@@ -67,12 +69,18 @@
 /*--                Image & Title                --*/
 /*-- =========================================== --*/
 @media only screen and (min-width: 0px) {
-        #orange-spaghetti {
+        #main {
             padding: var(--sectionpadding);
+            border: 10px red solid;
+            display: grid;
+            grid-template-rows: 0.5fr 2fr 0.5fr;
+            justify-items: center;
+            
+
         }
         .container {
             padding: 0;
-            background-color: red;
+            background-color: var(--primary);
         }
 }
 
