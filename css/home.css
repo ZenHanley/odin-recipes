@@ -1,8 +1,7 @@
+/*-- =========================================== --*/
+/*--                  Image & Title              --*/
+/*-- =========================================== --*/    
 @media only screen and (min-width: 0px) {
-    /*-- =========================================== --*/
-    /*--                  Image & Title              --*/
-    /*-- =========================================== --*/    
-
         #main {
             /* 144px - 300px - leaving extra space for the navigation */
             padding: clamp(9rem, 10vw, 18.75rem) 0.9375rem 0;
@@ -10,5 +9,17 @@
             box-sizing: border-box;
             /* clips the color overlay so it doesn't cause an overflow */
             overflow: hidden;
+        }
+}
+
+/*-- =========================================== --*/
+/*--                    Footer                   --*/
+/*-- =========================================== --*/
+@media only screen and (min-width: 0px) {
+        #footer {
+            padding: var(--sectionpadding);
+        }
+        .button-box {
+            padding: 0.5rem 0;
         }
 }

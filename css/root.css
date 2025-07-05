@@ -75,10 +75,10 @@
             display: grid;
             grid-template-rows: 0.5fr 2fr 0.5fr;
             justify-items: center;
-            
 
         }
         .container {
+            max-width: clamp(25rem, 20vw, 50rem);
             padding: 0;
             background-color: var(--primary);
         }
@@ -92,7 +92,7 @@
             padding: var(--sectionpadding);
         }
         .container {
-            padding: 0.5rem 0;
+            padding: 0;
         }
 }
 
@@ -109,10 +109,10 @@
 }
 
 /*-- =========================================== --*/
-/*--                    Buttons                  --*/
+/*--                    Footer                   --*/
 /*-- =========================================== --*/
 @media only screen and (min-width: 0px) {
-        #buttons {
+        #footer {
             padding: var(--sectionpadding);
         }
         .button-box {
